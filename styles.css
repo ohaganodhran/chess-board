@@ -1,0 +1,36 @@
+table{
+    border: 5px solid black;
+}
+tr{
+    height: 100px;
+}
+
+td{
+    border: 5px solid black;
+    width: 100px;
+}
+
+.blackStartingRow{
+    .col1{
+        background-color: #C58940;
+    }
+    .col2{
+        background-color: lightgray;
+    }
+}
+
+.whiteStartingRow{
+    .col1{
+        background-color: lightgray;
+    }
+    .col2{
+        background-color: #C58940;
+    }
+}
+
+.pieceRow{
+    img{
+        height: 100px;
+        width: 100px;
+    }
+}
